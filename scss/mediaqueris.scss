@@ -1,0 +1,185 @@
+@media (max-width: 1000px) {
+    nav{
+        background-color:gold;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        a{
+        
+            font-size: 1em;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            display:flex;
+            flex-direction: column ;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    .gridfooter{
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 8px;
+        grid-template-areas: 
+        "colum-uno" 
+        "colum-dos";}
+
+    .gridcontainer {
+        width: 80vw;
+    }
+    
+    
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        text-align: center;
+        justify-content: space-between;
+        .logo{
+            margin: 0;
+        
+            font-weight: bold;  
+        }
+    }
+
+    img{
+        width: 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2px;
+        p{
+            padding: 5px;
+        }
+    }
+
+
+    .hachetres h3{
+        font-size: 90%;
+    }
+
+    .castracion{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(121,9,83,1);
+        margin-top: 5%;
+        width: 100vw;
+        align-items: center;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+
+    .yoperdiyoencontre{
+    img{
+        width: 100%;
+        align-items: flex-start;
+        text-align: start;
+        }
+    }
+
+    .huellitas{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    width:100%;
+    align-items: flex-start;
+    text-align: start;
+    }
+
+    .resumen{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 5%;
+        h2{
+            font-size: 1rem;
+            text-align: end;
+            padding-top: 2rem
+        }
+    }
+
+    .col{
+        
+        padding: 8%;
+    }
+    .row {
+        width: 100%;
+        padding: 6%;
+    }
+
+    /* ser */
+
+    .serv {
+        h2{
+        font-size: 1rem;
+        }
+    }
+    .botoneserv{
+        width: 60%;
+        height: 10%;
+        font-size: 30%;
+        button{
+            font-size: 1rem;
+        }
+    }
+
+
+    .mascoservi{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .veterinarias , .adiestradores , .peluqueria , .guarderia , .paseadores{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1px;
+    }
+
+    .patita{
+        padding: 1rem;
+        h2{
+            align-items: flex-start;
+            width: 100px;
+            font-size: small;
+        }
+    }
+
+    .adopta {
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe{
+        width: 100%;
+        text-align: center;
+    }
+
+    .jornada {
+        background-size: cover;
+        h3{
+            font-size: 50%;
+            text-align: center;
+        } 
+    }
+
+}
